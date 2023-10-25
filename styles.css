@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(./coffes.jpg);
+    background-size: contain;
+}
+#all-coffees{
+    background-color: red;
+    /* text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin:0; */
+    display: flex;
+    flex-direction: column;
+}
